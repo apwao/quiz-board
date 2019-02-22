@@ -1,0 +1,30 @@
+body {
+  background color: ;
+}
+img {
+  height: 30%;
+  width: 30%;
+}
+h1 {
+  font-style: italic;
+  font-size: 50px;
+  text-align: center;
+  color: crimson;
+}
+p {
+  font-size: 20px;
+}
+.column {
+  width: 400px;
+  float:left;
+
+}
+a:link {
+  color: hotpink;
+}
+a:Visited {
+  color: crepe;
+}
+
+
+}
