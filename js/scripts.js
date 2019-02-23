@@ -9,5 +9,8 @@ $(document).ready(function(){
     var question7 = parseInt($("input:radio[name = question7]:checked")).val();
 
     var total = question1 + question2 + question3 + question4 + question5 + question6 + question7;
+    var output = document.getElementsbyClassName("result");
+    alert(output)
+    output[0].innerHTML = "<p>'Your score is' + total</p>"
   });
 });
