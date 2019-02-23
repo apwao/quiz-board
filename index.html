@@ -8,180 +8,190 @@
     <script src="js/scripts.js"></script>
   </head>
   <body class="container">
-    <div class="jumbotron">
-      <h1>Javascript Trivia!<h2>
-    </div>
-    <div class="well">
-          <form id="choices">
-            <ol>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li class="panel-title"><h4>What is HTML in full?</h4></li>
-                </div>
-                <div class="radio">
-                 <label>
-                   <input type="radio"  name="question1" value="5">
-                   Hyper Text Markup Language
-                 </label>
-                </div>
-                <div class="radio">
-                 <label>
-                  <input type="radio" name="question1" value="5">
-                    Hyper Text Madeup Language
-                 </label>
-                </div>
-                <div class="radio">
-                 <label>
-                  <input type="radio" name="question1" value="5">
-                   Hyper Language Markup
-                 </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li class="panel-title"><h4>Which built-in method calls a function for each element in the array?</h4></li>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio"  name="question2" value="5">
-                    forEach();
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question2" value="5">
-                    show();
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question2" value="5">
-                    hide();
-                  </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li class="panel-title"><h4>Which type of variable among global and local, takes precedence over other if names are same?</h4></li>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio"  name="question3" value="5">
-                    A global variable takes precedence over a local variable with the same name.
-                  </label>
-                </div>
-                <div class="radio">
-                 <label>
-                   <input type="radio" name="question3" value="5">
-                    A local variable takes precedence over a global variable with the same name.
-                 </label>
-               </div>
-               <div class="radio">
-                 <label>
-                   <input type="radio" name="question3" value="5">
-                    None takes precedence over the other.
-                  </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li panel-title><h4>What is the difference between “==” and “===” ?</h4></li>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio"  name="question4" value="5">
-                    ” ==” only compares values “===” compares values and type both
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question4" value="5">
-                  ” ===” only compares values “==” compares both values and type
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question4" value="5">
-                    They are the same
-                  </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li class="panel-title"><h4>Which built-in method sorts the elements of an array?</h4></li>
-                </div>
-                <div class="radio">
-                 <label>
-                   <input type="radio"  name="question5" value="5">
-                   hide();
-                 </label>
-                </div>
-                <div class="radio">
-                 <label>
-                   <input type="radio" name="question5" value="5">
-                  charAt();
-                  </label>
-                </div>
-                <div class="radio">
-                 <label>
-                   <input type="radio" name="question5" value="5">
-                   sort();
-                 </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="panel-heading">
-                  <li class="panel-title"><h4>Which built-in method reverses the order of the elements of an array?</h4></li>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio"  name="question6" value="5">
-                    show();
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question6" value="5">
-                   reverse();
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="question6" value="5">
-                    sort();
-                  </label>
-                </div>
-              </div>
-              <div class="panel panel-success">
-                <div class="radio">
-                  <div class="panel-heading">
-                    <li class="panel-title"><h4>How to add one new element at end of an array in javascript?</h4></li>
-                  </div>
-                 <label>
-                   <input type="radio"  name="question7" value="5">
-                   push();
-                </label>
-               </div>
-               <div class="radio">
-                <label>
-                  <input type="radio" name="question7" value="5">
-                  sort();
-                </label>
-              </div>
-             <div class="radio">
-               <label>
-                 <input type="radio" name="question7" value="5">
-                 append();
-               </label>
-              </div>
-            </div>
-          </ol>
-        <button class="btn" >Submit answers</button>
-      </form>
-   </div>
+    <div class="row">
+        <div class="jumbotron">
+          <h1>Javascript Trivia!<h2>
+        </div>
+      </div>
+      <div class="row"
+        <div class="col-md-2">
+          <div class="sidebar-nav">
+        </div>
+        <div class="col-md-10">
+            <div class="well">
+                  <form id="choices">
+                    <ol>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li class="panel-title"><h4>What is HTML in full?</h4></li>
+                        </div>
+                        <div class="radio">
+                           <label>
+                             <input type="radio"  name="question1" value="5">
+                             Hyper Text Markup Language
+                           </label>
+                        </div>
+                        <div class="radio">
+                         <label>
+                          <input type="radio" name="question1" value="5">
+                            Hyper Text Madeup Language
+                         </label>
+                        </div>
+                        <div class="radio">
+                         <label>
+                          <input type="radio" name="question1" value="5">
+                           Hyper Language Markup
+                         </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li class="panel-title"><h4>Which built-in method calls a function for each element in the array?</h4></li>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio"  name="question2" value="5">
+                            forEach();
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question2" value="5">
+                            show();
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question2" value="5">
+                            hide();
+                          </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li class="panel-title"><h4>Which type of variable among global and local, takes precedence over other if names are same?</h4></li>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio"  name="question3" value="5">
+                            A global variable takes precedence over a local variable with the same name.
+                          </label>
+                        </div>
+                        <div class="radio">
+                         <label>
+                           <input type="radio" name="question3" value="5">
+                            A local variable takes precedence over a global variable with the same name.
+                         </label>
+                       </div>
+                       <div class="radio">
+                         <label>
+                           <input type="radio" name="question3" value="5">
+                            None takes precedence over the other.
+                          </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li panel-title><h4>What is the difference between “==” and “===” ?</h4></li>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio"  name="question4" value="5">
+                            ” ==” only compares values “===” compares values and type both
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question4" value="5">
+                          ” ===” only compares values “==” compares both values and type
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question4" value="5">
+                            They are the same
+                          </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li class="panel-title"><h4>Which built-in method sorts the elements of an array?</h4></li>
+                        </div>
+                        <div class="radio">
+                         <label>
+                           <input type="radio"  name="question5" value="5">
+                           hide();
+                         </label>
+                        </div>
+                        <div class="radio">
+                         <label>
+                           <input type="radio" name="question5" value="5">
+                          charAt();
+                          </label>
+                        </div>
+                        <div class="radio">
+                         <label>
+                           <input type="radio" name="question5" value="5">
+                           sort();
+                         </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                        <div class="panel-heading">
+                          <li class="panel-title"><h4>Which built-in method reverses the order of the elements of an array?</h4></li>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio"  name="question6" value="5">
+                            show();
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question6" value="5">
+                           reverse();
+                          </label>
+                        </div>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="question6" value="5">
+                            sort();
+                          </label>
+                        </div>
+                      </div>
+                      <div class="panel panel-success">
+                          <div class="panel-heading">
+                            <li class="panel-title"><h4>How to add one new element at end of an array in javascript?</h4></li>
+                          </div>
+                        <div class="radio">
+                         <label>
+                           <input type="radio"  name="question7" value="5">
+                           push();
+                        </label>
+                       </div>
+                       <div class="radio">
+                        <label>
+                          <input type="radio" name="question7" value="5">
+                          sort();
+                        </label>
+                      </div>
+                     <div class="radio">
+                       <label>
+                         <input type="radio" name="question7" value="5">
+                         append();
+                       </label>
+                      </div>
+                    </div>
+                  </ol>
+                <button class="btn" >Submit answers</button>
+              </form>
+           </div>
+        </div>
 
-   <div id="result"></div>
+         <div id="result"></div>
 
-   </div>
+         </div>
+       </div>
+    <div>
   </body>
 </html>
