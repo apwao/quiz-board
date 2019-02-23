@@ -10,19 +10,20 @@
   <body class="container">
     <div class="jumbotron">
       <div class="row">
-          <div class="col-md-2"><img src="images/logoimages.png"></div>
+          <div class="col-md-2"><img src="images/logoimages.png" alt="javascript logo"></div>
           <div class="col-md-2"></div>
-          <div class="col-md-6"><h1>Test your mettle!<h1></div>
+          <div class="col-md-5"><h1>Test your mettle!<h1></div>
+          <div class="col-md-1"><img src="images/bicep1.jpeg" alt="photo of flexed bicep"></div>
       </div>
     </div>
-      <div class="row">
+      <div class="row" style="background:transparent url('images/background.jpeg')">
         <div class="col-md-2">
           <div class="sidebar-nav">
 
           </div>
         </div>
         <div class="col-md-10">
-            <div class="well">
+            <!--<div class="well">-->
                   <form id="choices">
                     <ol>
                       <div class="panel panel-success">
@@ -30,13 +31,13 @@
                           <li class="panel-title"><h4>What is HTML in full?</h4></li>
                         </div>
                         <div class="radio">
-                           <label class="btn btn-success btn-outline">
+                           <label class="btn btn-success btn-outline active">
                              <input type="radio"  name="question1" value="5">
                              Hyper Text Markup Language
                            </label>
                         </div>
                         <div class="radio">
-                         <label class="btn btn-success btn-outline">
+                         <label class="btn btn-success btn-outline active">
                           <input type="radio" name="question1" value="5">
                             Hyper Text Madeup Language
                          </label>
@@ -189,7 +190,7 @@
                   </ol>
                 <button class="btn" >Submit answers</button>
               </form>
-           </div>
+           <!--</div>-->
         </div>
 
          <div id="result"></div>
