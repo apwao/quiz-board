@@ -1,22 +1,11 @@
-var counter = 0;
-if (question1 === "a"){
-  counter += 5;
-}
-if (question2 === "a"){
-  counter += 5;
-}
-if (question3 === "b"){
-  counter += 5;
-}
-if (question4 === "a"){
-  counter += 5;
-}
-if (question5 === "c"){
-  counter += 5;
-}
-if (question6 === "b"){
-  counter += 5;
-}
-if (question7 === "d"){
-  counter += 5;
-}
+$(document).ready(function(){
+  $("form.btn").click(function(){
+    var question1 = parseInt($("input:radio[name = question1]:checked")).val();
+    var question2 = parseInt($("input:radio[name = question2]:checked")).val();
+    var question3 = parseInt($("input:radio[name = question3]:checked")).val();
+    var question4 = parseInt($("input:radio[name = question4]:checked")).val();
+    var question5 = parseInt($("input:radio[name = question5]:checked")).val();
+    var question6 = parseInt($("input:radio[name = question6]:checked")).val();
+    var question7 = parseInt($("input:radio[name = question7]:checked")).val();
+  });
+});
