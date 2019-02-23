@@ -7,5 +7,7 @@ $(document).ready(function(){
     var question5 = parseInt($("input:radio[name = question5]:checked")).val();
     var question6 = parseInt($("input:radio[name = question6]:checked")).val();
     var question7 = parseInt($("input:radio[name = question7]:checked")).val();
+
+    var total = question1 + question2 + question3 + question4 + question5 + question6 + question7;
   });
 });
