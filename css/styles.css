@@ -1,3 +1,21 @@
 # heading .jumbotron h1 {
   font-family: 'Niconne', cursive;
 }
+#switch{
+  position: relative;
+  top: 400px;
+  left: 400px;
+  color: white
+  text-align:center;
+}
+#switch h1{
+  color: white;
+  font-size: 60px;
+  font-family:'Niconne', cursive;
+}
+#font{
+  font-family: 'Niconne', cursive;
+}
+#override{
+  font-family: 'Niconne', cursive;
+}
