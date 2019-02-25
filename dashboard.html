@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>quizboard</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body class="container scrollbar scrollbar-success" background="images/background.jpeg">
+    <div class="jumbotron">
+      <div class="row">
+          <div class="col-md-2"><img src="images/logo.png" alt="javascript logo"></div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5"><h1 id="heading">Test your mettle!<h1></div>
+          <div class="col-md-1"><img src="images/htmllogo.png" alt="photo of html logo"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <form id="choices">
+            <ol>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>What is HTML in full?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question1" value="5">
+                    Hyper Text Markup Language
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question1" value="0">
+                      Hyper Text Madeup Language
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question1" value="0">
+                      Hyper Language Markup
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>Which built-in method calls a function for each element in the array?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question2" value="5">
+                      forEach();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question2" value="0">
+                      show();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question2" value="0">
+                      hide();
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>Which type of variable among global and local, takes precedence over other if names are same?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question3" value="0">
+                      A global variable takes precedence over a local variable with the same name.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question3" value="5">
+                      A local variable takes precedence over a global variable with the same name.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question3" value="0">
+                      None takes precedence over the other.
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li panel-title><h4>What is the difference between “==” and “===” ?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question4" value="5">
+                      ” ==” only compares values “===” compares both values and type
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question4" value="0">
+                      ” ===” only compares values “==” compares both values and type
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question4" value="0">
+                      They are the same
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>Which built-in method sorts the elements of an array?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question5" value="0">
+                      hide();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question5" value="0">
+                      charAt();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question5" value="5">
+                      sort();
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>Which built-in method reverses the order of the elements of an array?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question6" value="0">
+                      show();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question6" value="5">
+                      reverse();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question6" value="0">
+                      sort();
+                  </label>
+                </div>
+              </div>
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <li class="panel-title"><h4>How to add one new element at end of an array in javascript?</h4></li>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio"  name="question7" value="5">
+                      push();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question7" value="0">
+                      sort();
+                  </label>
+                </div>
+                <div class="radio">
+                  <label class="btn btn-success btn-outline">
+                    <input id="override" type="radio" name="question7" value="0">
+                      append();
+                  </label>
+                </div>
+              </div>
+            </ol>
+          </div>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><button id="answer" class="btn btn-success btn-lg">Submit answers</button></div>
+          </div>
+        </form>
+        <div class= "well">
+          <div id="result" class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+<html>
