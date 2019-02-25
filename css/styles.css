@@ -1,6 +1,3 @@
-# heading .jumbotron h1 {
-  font-family: 'Niconne', cursive;
-}
 #switch{
   position: relative;
   top: 400px;
@@ -11,11 +8,14 @@
 #switch h1{
   color: white;
   font-size: 60px;
-  font-family:'Niconne', cursive;
 }
 #font{
-  font-family: 'Niconne', cursive;
+  font-family: 'Nova Flat', cursive;
+  color: green;
 }
-#override{
-  font-family: 'Niconne', cursive;
+.radio{
+  font-family: 'Nova Flat', cursive;
+}
+.panel-title{
+  font-family: 'Nova Flat', cursive;
 }
