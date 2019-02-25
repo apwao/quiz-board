@@ -1,14 +1,4 @@
-#switch{
-  position: relative;
-  top: 400px;
-  left: 400px;
-  color: white
-  text-align:center;
-}
-#switch h1{
-  color: white;
-  font-size: 60px;
-}
+
 #font{
   font-family: 'Nova Flat', cursive;
   color: green;
@@ -18,4 +8,12 @@
 }
 .panel-title{
   font-family: 'Nova Flat', cursive;
+}
+#switch{
+  font-family: 'Nova Flat', cursive;
+  color: green;
+}
+#result{
+  font-family: 'Nova Flat', cursive;
+  color: green;
 }
